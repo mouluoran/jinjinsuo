@@ -1,0 +1,200 @@
+﻿
+/*---------------------banner----------------------------*/
+
+#banner{
+    height:400px;
+    overflow:hidden;
+    position:absolute;
+    
+}
+
+#banner #docs{
+    position:absolute;
+    bottom:20px;
+    left:45%;
+}
+.doc{
+    width:26px;
+    height:26px;
+    border-radius:100%;
+    background:#ccc;
+    float:left;
+    margin-right:10px;
+}
+.bg{
+    background:red;
+}
+#rl{
+    position:absolute;
+    right:200px;
+    top:100px;
+}
+#rl #reg,#rl #login{
+    width:160px;
+    height:40px;
+    border-radius:20px;
+    line-height:40px;
+    text-align:center;
+    border:1px solid #fff;
+    margin-bottom:10px;
+    cursor:pointer
+}
+.click{
+    background:#fff;
+    opacity:0.8;
+    filter:alpha(opacity:80);
+}
+
+/*------------------introduce---------------------------*/
+#introduce{
+    height:240px;
+    margin-top:400px;
+    background:#F8F2E5;
+    padding-top:30px;
+}
+#introduce ul{
+    width:960px;
+    margin:0 auto;
+   height:400px;
+}
+#introduce ul li{
+    width:140px;
+    float:left;
+    cursor:pointer;
+    margin-right:100px;
+}
+#introduce ul li img{
+    width:130px;
+    height:130px;
+    border-radius:100%;
+    border:3px solid #fff;
+}
+#introduce ul li .imgh{
+    border:3px solid red;
+}
+#introduce ul li p{
+    text-align:center;
+    font-size:18px;
+    margin:10px 0;
+}
+#introduce ul li span{
+    font-size:14px;
+}
+
+/*------------------shortcut---------------*/
+
+#shortcut{
+    border:1px solid #ccc;
+    height:240px;
+    background:#F5F4EB;
+    padding-top:20px;
+}
+#shortcut h2{
+    width:200px;
+    margin:0 auto;
+    font-size:26px;
+    color:#895D19;
+}
+#shortcut ul{
+    width:1100px;
+    margin:20px auto;
+}
+#shortcut ul li{
+    float:left;
+    margin-right:50px;
+    cursor:pointer;
+}
+#shortcut ul li div{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:2px solid #FBDB8E;
+    background:url("../img/sc.png") no-repeat center #fff;
+}
+
+#shortcut ul li p{
+    text-align:center;
+    margin-top:20px;
+}
+
+
+/*------------------news---------------------------*/
+#news{
+    height:360px;
+    background:#fff;
+}
+#news #ne{
+    width:1000px;
+    margin:0 auto;
+}
+#news .ne{
+    margin-top:30px;
+    float:left;
+    margin-right:40px;
+}
+#news .news1{
+    width:400px;
+    height:280px;
+    border:1px solid #ccc;
+}
+#news .news2{
+    width:500px;
+    height:280px;
+    border:1px solid #ccc;
+}
+#news .news1 h3,#news .news2 h3{
+    width:100px;
+    height:40px;
+    float:left;
+    line-height:40px;
+    text-align:center;
+    cursor:pointer;
+}
+#news .news1 a,#news .news2 a{
+    float:right;
+    margin:10px;
+    cursor:pointer;
+}
+#news .news1 div,#news .news2 div{
+    margin:8px;
+    border-top:1px solid #ccc;
+}
+#news .news1 img{
+    margin-left:10px;
+}
+.nh{
+    color: #895D19;
+    border-bottom:solid 1px #895D19;
+}
+#news .news2 li{
+    list-style:disc;
+    margin-left:20px;
+    font-size:14px;
+    margin-bottom:10px;
+}
+#news .news2 li span{
+   margin-left:100px;
+   font-size:12px;
+}
+
+/*-----------------collaborate----------------------*/
+#collaborate{
+    border:1px solid #ccc;
+    height:300px;
+}
+#collaborate h2{
+    width:200px;
+    margin:30px auto;
+    font-size:26px;
+    color:#895D19;
+}
+#collaborate ul{
+    width:1100px;
+    margin:0 auto;
+}
+#collaborate ul li{
+
+    float:left;
+    margin-right:5px;
+}
+

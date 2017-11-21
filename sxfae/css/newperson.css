@@ -1,0 +1,120 @@
+﻿.pink{
+    background:#F8F2E6;
+}
+.subject{ 
+    width:1100px;
+    margin:0  auto;
+}
+.subject:after{
+    display:block;
+    clear:both;
+    content:"";
+    visibility:hidden;
+    height:0;
+}
+
+h2{
+    height:140px;
+    color:#E15D39;
+    font-size:40px;
+    line-height:140px;
+}
+#what div{
+    float:left;
+    margin-right:30px;
+    margin-bottom:30px;
+}
+#what .text{
+    width:330px;
+    padding:60px 0;
+    font-size:16px;
+}
+.white{
+    background:#fff;
+}
+#advantage{
+    height:300px;
+}
+#advantage ul li{
+    width:320px;
+    height:120px;
+    border:1px solid #ccc;
+    float:left;
+    margin-right:30px;
+}
+#advantage ul li img{
+    float:left;
+    margin:16px;
+}
+#advantage ul li p{
+    float:left;
+    margin-top:22px;
+}
+.big{
+    font-size:20px;
+}
+
+#product{
+    height:360px;
+}
+#product ul li{
+    width:480px;
+    height:160px;
+    border:1px solid #ccc;
+    float:left;
+    margin-right:30px;
+    background:#fff;
+}
+#product ul li div{
+    float:left;
+}
+.circle{
+    width:100px;
+    height:100px;
+    margin:20px;
+    background:#F7F1E5;
+    color:red;
+    padding:20px;
+    border-radius:100%;
+    
+}
+.circle strong{
+   
+    font-size:40px;
+}
+.circle p{
+    color:#000;
+   margin-left:32px;
+   margin-top:10px;
+}
+.center{
+    width:120px;
+    height:100px;
+    padding:20px;
+}
+.center h4{
+    margin-top:20px;
+    font-size:24px;
+    font-weight:bold;
+    height:60px;
+}
+.p-right{
+    width:140px;
+    height:160px;
+    background:#E3B985;
+}
+.p-right img{
+    display:block;
+    margin:20px auto;
+}
+.p-right a{
+    display:block;
+    background:#fff;
+    width:80px;
+    height:20px;
+    border-radius:10px;
+    margin:0 auto;
+    padding-left:12px;
+    padding-top:6px;
+    margin-bottom:6px;
+}

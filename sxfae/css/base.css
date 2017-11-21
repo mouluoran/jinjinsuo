@@ -1,0 +1,248 @@
+﻿html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0px;padding:0px;}
+table{border-collapse:collapse;border-spacing:0px;}
+fieldset,img,abbr,acronym{border:0px;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.clearfix{
+    clear:both;
+}
+
+
+
+body {
+    background-color: #efecde;
+}
+#header{
+    width:1000px;
+    margin:0 auto;
+}
+.logo{
+    width:350px;
+         margin-top:10px;
+     }
+.right{ 
+    width:450px;
+}
+ul{
+    list-style-type:none;
+}
+a{
+    text-decoration:none;
+}
+.list li{
+    float:left;
+    margin-right:10px;
+    margin-top:20px;
+}
+.l_log{
+    background-image:url("../img/login.png");
+    background-repeat:no-repeat;
+    background-position:1px 2px;
+    padding-left:20px;
+    margin-left:107px;
+}
+.l_reg{
+    background-image:url("../img/reg.png");
+    background-repeat:no-repeat;
+    background-position:1px 1px;
+    padding-left:20px;
+}
+.l_log a,.l_reg a{
+     font-size:13px;
+    color:#AF8B4B;
+    font-weight:700;
+}
+.l_log a:hover,.l_reg a:hover{
+    color:#000;
+}
+.l_pe a{
+    color:#979797;
+     font-size:13px;
+}
+.l_pe a:hover{
+    color:#000;
+}
+
+.tel{
+    font-size:24px;
+    font-weight:700;
+    color:#AF8B4B;
+    background-image:url("../img/tel.png");
+    background-repeat:no-repeat;
+    background-position:1px 6px;
+    padding-left:30px;
+    margin-top:15px;
+    margin-right:10px;
+}
+.time {
+  margin-top:20px;
+  margin-right:80px;
+}
+
+/*-----------------------------nav------------------------------*/
+  
+   .nav {
+            display: block;
+            height: 40px;
+            background-color: #D7D1B4;
+        }
+
+        .cata {
+            width: 1100px;
+            margin: 0 auto;
+        }
+        .cata li{
+            float:left;
+        }
+            .cata li a {
+                display: inline-block;
+                width: 120px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+            }
+
+                .cata li:hover {
+                    display: block;
+                    background-color: #CFC39F;
+                }
+        .add {
+            display: block;
+            width: 120px;
+            height: 40px;
+            background-color: #CFC39F;
+        }
+
+/*----------------footer-----------------*/
+
+#footer #lis{
+   background:#937133;
+    height:40px;
+}
+#footer #lis ul{
+    width:1000px;
+    margin:0 auto;
+    color:#fff;
+}
+#footer #lis ul li{
+    float:left;
+    margin-right:10px;
+    line-height:40px;
+    cursor:pointer;
+    font-size:13px;
+}
+#footer #lis div{
+   float:right;
+   margin-top:-20px;
+   margin-left:10px;
+}
+#footer #lis2{
+    background:#AF8B4B;
+    height:120px;
+    padding-top:20px;
+}
+#footer #lis2 p{
+    width:700px;
+    margin:0 auto;
+    font-size:12px;
+    color:#FFF;
+}
+#footer #lis2 ul{
+    margin-top:20px;
+}
+#footer #lis2 ul li{
+    float:left;
+    margin-right:6px;
+}
+
+/*----------------------*/
+#sfix{
+    position:fixed;
+    bottom:0;
+    right:0;
+}
+#sfix div{
+    cursor:pointer;
+}
+/*----------------------------*/
+.item input{
+    width:280px;
+    height:40px;
+}
+
+
+
+/*----------------清浮动*/
+#header:after{
+    display:block;
+    clear:both;
+    content:"";
+    visibility:hidden;
+    height:0;
+}
+
+/*----------------登录窗体------------*/
+#loginbox {
+    display:none;
+}
+
+    #loginbox #logintitle {
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px;
+        border-bottom: solid 1px #876323;
+        margin-bottom: 17px;
+        color:#876323;
+    }
+
+    #loginbox .loginitem {
+        height: 25px;
+        line-height: 25px;
+        width: 324px;
+        height: 35px;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+
+        #loginbox .loginitem input {
+            width: 324px;
+            height: 35px;
+        }
+        #loginbox .loginitem #txtyan{
+            width: 120px;
+            height: 35px;
+        }
+
+    #loginbox #loginbtn {
+        width: 326px;
+        background:#E84C3D;
+    }
+
+
+#logina a {
+    color: #876323;
+}
+#logina .logina1{
+    float:left;
+}
+#logina .logina2{
+    float:right;
+}
+
+#canvas{
+           border:1px solid #ccc;
+        }#loginbox  #txtyan,#loginbox #canvas,#loginbox #change{
+    float:left;
+    margin-right:4px;
+}#change{
+    margin-top:14px;
+}

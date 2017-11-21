@@ -1,0 +1,132 @@
+﻿
+#a-con{
+    width:1100px;
+    margin:60px auto;
+}
+#a-con:after{
+     display:block;
+    clear:both;
+    content:"";
+    visibility:hidden;
+    height:0;
+}
+#a-left{
+    float:left;
+    width:240px;
+    height:360px;
+    background:#DFD9CB;
+    border-radius:5px;
+}
+#a-left h3{
+    width:240px;
+    text-align:center;
+    font-size:24px;
+    height:80px;
+    line-height:80px;
+    background:#D2C9B3;
+    color:#A27123;
+    border-radius:5px;
+}
+#a-left ul li{
+    width:240px;
+    text-indent:10px;
+    height:50px;
+    line-height:50px;
+    font-size:18px;
+    border-bottom:1px solid #ccc;
+}
+.fa{
+    color:red;
+    margin-right:4px;
+}
+#a-right{
+    float:left;
+    width:800px;
+    margin-left:40px;
+}
+#a-right .main{
+    height:40px;
+    width:800px;
+    border-bottom:1px solid red;   
+}
+#a-right .main a{
+    display:block;
+    float:right;
+     color:red;
+     font-size:16px;
+     line-height:40px;
+}
+.main .tit{
+     border-bottom:2px solid red;
+      line-height:56px;
+      color:red;
+     font-size:18px
+}
+.abwe p{
+    font-family:"微软雅黑";
+    font-size:18px;
+    margin:20px 0;
+    text-indent:2em;
+    letter-spacing:2px;
+    line-height:30px;
+    color:#666666;
+}
+
+.show{
+    color:red;
+}
+
+
+
+/*---------------------资质*/
+#im{
+    margin-right:6px;
+}
+.xiab{
+    width:800px;
+    text-align:center;
+    height:80px;
+    line-height:80px;
+    font-size:24px;
+    color:#666;
+}
+.ic{
+    margin-left:80px;
+}
+/*--------------------风险*/
+.abwe h3{
+    color:red;
+    font-size:20px;
+    height:50px;
+    line-height:50px;
+}
+/*-------------------*/
+#ds li{
+    list-style-type:disc;
+    
+}
+#ds a{
+    font-size:18px;
+    height:50px;
+    line-height:50px;
+}
+#ds a:hover{
+    color:red;
+}
+#ds span{
+    display:inline-block;
+    width:200px;
+}
+
+/*---------------*/
+.li{
+    margin-left:20px;
+}
+.li1{
+    margin-left:50px;
+}
+.lp{
+    width:300px;
+    float:left;
+    text-align:center;
+}

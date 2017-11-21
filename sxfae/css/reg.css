@@ -1,0 +1,85 @@
+﻿#regul,#reg{
+    width:1000px;
+    margin:0 auto;
+}
+
+#regul ul{
+    width:900px;
+    margin:30px auto;
+    margin-bottom:30px;
+    
+}
+#regul ul li{
+    float:left;
+}
+#regul ul li .cen{
+    width:48px;
+    margin:0 auto;
+}
+#regul ul li .cen1{
+    width:76px;
+    margin:0 auto;
+}
+
+.icon{
+    background:url("../img/ico.png") no-repeat center;
+    width:48px;
+    height:56px;
+}
+.icon1{
+    background:url("../img/ico2.png") no-repeat center;
+    width:48px;
+    height:56px;
+}
+.icon2{
+    background:url("../img/ico3.png") no-repeat center;
+    width:400px;
+    height:40px;
+   
+}
+.icon3{
+    background:url("../img/ico4.png") no-repeat center;
+    width:400px;
+    height:40px
+}
+#reg{
+    width:480px;
+    margin:30px auto;
+}
+#reg tr{
+    height:56px;
+}
+
+#reg input{
+    width:240px;
+    height:36px;
+    line-height:36px;
+}
+#reg .short{
+    width:120px;
+    height:36px;
+     line-height:36px;
+}
+#reg .get{
+    display:inline-block;
+    width:120px;
+    height:39px;
+    margin-left:4px;
+     line-height:38px;
+     text-align:center;
+     background:#ccc;
+     color:#fff;
+}
+
+#btn{
+    width:300px;
+    margin:0 auto;
+}
+#btn input{
+    width:300px;
+    height:36px;
+    background:red;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+}

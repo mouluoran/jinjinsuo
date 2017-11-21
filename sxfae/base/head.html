@@ -1,0 +1,45 @@
+﻿
+    <div id="header">
+        <div class="fl logo">
+            <img src="img/logo.png" />
+        </div>
+
+        <div class="fr right">
+            <div class="headerno">
+                <ul class="list">
+                    <li class="l_log"><a href="javascript:;" onclick="ShowLoginBox()">登录</a></li>
+                    <li class="l_reg"><a href="/reg.aspx">注册</a></li>
+                    <li> | </li>
+                    <li class="l_pe"><a href="javascript:;">个人中心</a></li>
+                    <li> | </li>
+                    <li class="l_pe"><a href="javascript:;">帮助中心</a></li>
+                </ul>
+            </div>
+            <!--<div class="headeryes">
+                <ul class="list">
+                    <li class="l_log"><a href="javascript:;">你好，xxx</a></li>
+                    <li class="l_reg"><a href="javascript:;">退出</a></li>
+                    <li> | </li>
+                    <li class="l_pe1"><a href="javascript:;">个人中心</a></li>
+                    <li> | </li>
+                    <li class="l_pe"><a href="javascript:;">帮助中心</a></li>
+                </ul>
+            </div>-->
+            
+            <div class="time fr">工作时间：8:30-20:30</div>
+            <div class="tel fl">400-167-8888</div>
+        </div>
+        <div id="loginbox">
+            <div class="loginitem" id="logintitle">登录  </div>
+            <div class="loginitem"><input type="text" id="txtUserName" placeholder="请输入手机号" /></div>
+            <div class="loginitem"><input type="password" id="txtPwd" placeholder="请输入密码" /></div>
+            <div class="loginitem" ><input type="text" id="txtyan" placeholder="请输入验证码" /><canvas id="canvas"></canvas>
+                                    <a href="javascript:;" id="change">再换一张</a>
+            </div>
+            <div class="loginitem">
+                <button id="loginbtn" class="layui-btn" type="button" onclick="Login()">登陆</button>
+            </div>
+            <div class="loginitem" id="logina"><a href="" class="logina1">立即注册</a><a href="" class="logina2">忘记密码？</a></div>
+        </div>
+     </div><!--header结束-->
+
