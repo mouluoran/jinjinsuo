@@ -1,0 +1,84 @@
+﻿#jjb_index{
+    background:#E23A1F;
+    padding-bottom:40px;
+}
+.top{
+    position:relative;
+}
+.top img{
+    width:100%;
+
+}
+.top .btn{
+    display:block;
+    width:240px;
+    height:50px;
+    background:#FCFF00;
+    text-align:center;
+    line-height:50px;
+    position:absolute;
+    bottom:60px;
+    margin-left:50%;
+    left:-120px;
+    font-size:20px;
+    color:#BA0104;
+}
+.jjb1{
+    width:100%;
+    background:url("../img/jjb5.png")no-repeat right;
+}
+.jjb .title{
+    width:630px;
+    margin:40px auto;
+}
+.jjb .brief{
+    color:#fff;
+    width:1000px;
+    font-size:24px;
+    margin:20px auto;
+}
+.jjb{
+    width:980px; 
+    margin:0 auto;   
+}
+.jjb .pic{
+     float:left;
+}
+.jjb .jjb_con{
+    float:right;
+}
+
+.jjb .jjb_con strong{
+    display: block;
+    line-height: 50px;
+    font-size: 30px;
+    color: #faeb45;
+    padding-top:100px;
+}
+.jjb .jjb_con p{
+    color:#fff;
+    font-size:18px;
+    line-height: 34px;
+}
+.jjb2 .pic{
+    float:right;
+}
+.jjb2 .jjb_con{
+    float:left;
+}
+#lc{
+    margin:40px auto;
+}
+#ty{
+    display:block;
+    width:260px;
+    height:60px;
+    margin:0px auto;
+    background:#FCFF00;
+    text-align:center;
+    line-height:60px;
+    margin-top:80px;
+    font-size:28px;
+    border-radius:5px;
+    box-shadow:6px 6px 2px #FBAD0B;
+}

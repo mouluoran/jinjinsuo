@@ -1,0 +1,52 @@
+﻿
+#lc{
+    width:100%;
+    background:#DFD9CB;
+}
+.wrap{
+    width:1040px;
+    margin:0 auto;
+    padding-top:10px;
+}
+.lc_h3{
+    font-size:20px;
+}
+
+.lc_h3 span{
+    font-size:16px;
+    margin-left:10px;
+}
+.ared{
+    color:red;
+}
+.lc_list{
+    width:1000px;
+    margin:10px auto;
+    background:#fff;
+    padding:20px;
+    border-radius:10px;
+}
+.lc_list dl dt {
+    width: 90px;
+    float: left;
+    text-align: right;
+}
+.lc_list dl dd {
+    padding: 0 10px;
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.lc_list dl {
+    height: 30px;
+    line-height: 30px;
+    padding: 5px 0;
+    position: relative;
+    z-index: 15;
+}
+.lc_list dl dd.active {
+    display: inline-block;
+    background: #E74B3D;
+    color: #FFFFFF;
+    border-radius:5px;
+}
